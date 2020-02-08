@@ -28,7 +28,7 @@ html {
 }
 body {
   margin: 1rem;
-  margin: 1rem;
+  margin: auto;
   justify-self: center;
 }
 
@@ -134,7 +134,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   grid-gap: 20px;
   align-items: stretch;
-  width: 90%;
+  width: 100%;
   font-family: "Cinzel", serif;
 
   img {
@@ -144,6 +144,7 @@ body {
     position: relative;
   }
 }
+// .container::before {
 
 .hero-overlay {
   position: absolute;
