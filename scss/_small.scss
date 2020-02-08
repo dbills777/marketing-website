@@ -22,6 +22,15 @@
 
 // start my styles after this line=======================================================================================================================================\
 @import url("https://fonts.googleapis.com/css?family=Cinzel|Fauna+One&display=swap");
+html {
+  display: grid;
+  background-color: #fff;
+}
+body {
+  margin: 1rem;
+  margin: 1rem;
+  justify-self: center;
+}
 
 .navbar {
   display: flex;
@@ -120,25 +129,12 @@
   }
 }
 
-html {
-  background-color: #ffffff;
-  margin: 0 auto;
-  overflow-x: hidden;
-  // font-size: 62.5%;
-  text-align: center;
-}
-.body {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   grid-gap: 20px;
   align-items: stretch;
-  width: 100%;
+  width: 90%;
   font-family: "Cinzel", serif;
 
   img {
@@ -148,19 +144,6 @@ html {
     position: relative;
   }
 }
-// .container::before {
-//   content: "WELCOME TO CALM MIND SPA";
-//   background-color: red;
-//   font-size: 5rem;
-//   color: white;
-//   text-align: center;
-//   top: 34rem;
-//   display: block;
-//   position: relative;
-//   z-index: 10;
-//   background-position-x: center;
-//   max-width: 100%;
-// }
 
 .hero-overlay {
   position: absolute;
