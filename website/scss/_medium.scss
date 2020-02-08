@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel&display=swap");
+.brand-title {
+  margin-left: 3rem;
+}
+.hide-contact {
+  display: none;
+}
+.right {
+  margin: 0;
+}
+.contact {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+  font-size: 1.5rem;
+  justify-self: end;
+  margin-right: 0rem;
+  padding: 0;
+}
+
+.navbar-links {
+  margin-left: -8rem;
+  li {
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.hero-overlay {
+  top: 20rem;
+  color: white;
+  font-size: 4rem;
+  position: absolute;
+}
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Cinzel", serif;
+  gap: 5rem;
+  text-align: left;
+  margin: 1.5rem;
+  .content p {
+    text-align: left;
+  }
+}
+
+.news-letter {
+  font-family: "Fauna One", serif;
+  align-content: center;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  h1 {
+    grid-column: 1 / span 3;
+    text-align: center;
+  }
+  .news-letter {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+
+  .newsletterp {
+    grid-column: 1 / span 3;
+  }
+
+  button {
+    grid-column: 2 / span 1;
+  }
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

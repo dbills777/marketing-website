@@ -1,0 +1,278 @@
+/*-----Prevents iPhone from resizing in portrait/landscape mode -----*/
+/* html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+} Theese rules are include on line 14,15 of our normalize file and are only needed if using a normalize file where they are included!!!!*/
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 95rem;
+  margin: auto;
+}
+/* fixes collapse of navbar on med,large screens.. must add class to nav elemnt in html */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// start my styles after this line=======================================================================================================================================\
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Fauna+One&display=swap");
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(97, 97, 97);
+  max-width: 100%;
+  z-index: 10;
+}
+
+.brand-title {
+  font-size: 3rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  // height: 2.5rem;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  font-size: 0.8rem;
+  display: block;
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+  padding: 1rem;
+}
+
+.navbar-links li:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
+
+html {
+  background-color: #ffffff;
+  margin: 0 auto;
+  overflow-x: hidden;
+  // font-size: 62.5%;
+  text-align: center;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  width: 100%;
+  font-family: "Cinzel", serif;
+
+  img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    max-width: 96%;
+    position: relative;
+  }
+}
+// .container::before {
+//   content: "WELCOME TO CALM MIND SPA";
+//   background-color: red;
+//   font-size: 5rem;
+//   color: white;
+//   text-align: center;
+//   top: 34rem;
+//   display: block;
+//   position: relative;
+//   z-index: 10;
+//   background-position-x: center;
+//   max-width: 100%;
+// }
+
+.hero-overlay {
+  position: absolute;
+  // z-index: 10;
+  top: 11rem;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+}
+.sections {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Cinzel", serif;
+  padding-top: 5rem;
+  gap: 1rem;
+  text-align: center;
+  justify-items: center;
+
+  img {
+    max-width: 100%;
+  }
+  .section-title {
+    font-size: 3rem;
+  }
+  .section-subhead {
+    color: #777;
+  }
+  p {
+    font-family: "Fauna One", serif;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+  }
+  .section-end {
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+.sections {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #777;
+}
+.quote,
+p {
+  margin-top: 5rem;
+  font-family: "Fauna One", serif;
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.bottom-img {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.news-letter {
+  color: #fff;
+  font-family: "Fauna One", serif;
+
+  background-color: #6a5b5e;
+  display: grid;
+  grid-template-columns: 1fr;
+  h1 {
+    text-align: center;
+  }
+
+  .h1 {
+    margin-top: 5rem;
+    font-family: "Baskerville-urw", serif;
+    text-transform: capitalize;
+  }
+  .newsletterp {
+    align-content: center;
+    width: 70%;
+    margin-top: 0;
+    p {
+      margin: 0;
+      margin-bottom: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+  input {
+    padding: 1em 2.25em;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    text-align: center;
+  }
+  button {
+    color: white;
+    justify-self: center;
+    padding: 1em 2.25em;
+    background-color: #898568;
+    border: 1px solid #898568;
+    font-family: inherit;
+    font-size: 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 5rem;
+  p {
+    margin: 1rem;
+    padding-top: 1rem;
+  }
+}
