@@ -6,7 +6,8 @@ You are to demonstrate that you know how to use basic HTML and CSS by building a
 
 *Cozy Corner* - Book store
 
-*Calm Mind* - Spa
+# Calm Mind - Spa (this assignment) 
+[Ayers Vinyard](http://www.ayresvineyard.com)
 
 You will use one of these companies as a guide for your content.  For design, you will need to find a website that you admire as a guide for layout.  You will then combine the company content and the layout of the website you admire to create a single page marketing site.
 
@@ -48,4 +49,4 @@ We will be using git throughout the semester.  Each project much be forked and 
 
 - [ ] When you have completed the website, submit your repository URL
 
-The URL you used for layout is: 
+The URL you used for layout is: [Ayers Vinyard](http://www.ayresvineyard.com)
