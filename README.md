@@ -2,11 +2,12 @@
 
 You are to demonstrate that you know how to use basic HTML and CSS by building a responsive single page marketing webpage for one of these three companies:
 
-*Road Warriors* - Bike shop
+_Road Warriors_ - Bike shop
 
-*Cozy Corner* - Book store
+_Cozy Corner_ - Book store
 
-# Calm Mind - Spa (Chose for this assignment) 
+# Calm Mind - Spa (Chose for this assignment)
+
 # Click Here [Link to My Project](https://bills2780spa.netlify.com/)
 
 You will use one of these companies as a guide for your content.  For design, you will need to find a website that you admire as a guide for layout.  You will then combine the company content and the layout of the website you admire to create a single page marketing site.
@@ -37,11 +38,11 @@ Images and content can be frustrating to find and use in any project.  To allev
 
 ## Project Setup
 
-We will be using git throughout the semester.  Each project much be forked and cloned to get started.  
+We will be using git throughout the semester.  Each project much be forked and cloned to get started.
 
 - [x] Fork and clone this repo: https://github.com/BigKnell/marketing-website
 
-- [x] You have been provided a [bare bones website starter folder (website folder)](website).  Use index.html as a starting point for your HTML and index.css for your CSS
+- [x] You have been provided a [bare bones website starter folder (website folder)](website). Use index.html as a starting point for your HTML and index.css for your CSS
 
 - [x] Build your website following the project requirements as your guide
 
